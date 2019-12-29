@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/corda-training-solutions-master.iml" filepath="$PROJECT_DIR$/.idea/modules/corda-training-solutions-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-source/corda-training-solutions-master.java-source.iml" filepath="$PROJECT_DIR$/.idea/modules/java-source/corda-training-solutions-master.java-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-source/corda-training-solutions-master.java-source.main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-source/corda-training-solutions-master.java-source.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-source/corda-training-solutions-master.java-source.test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-source/corda-training-solutions-master.java-source.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-source/corda-training-solutions-master.kotlin-source.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-source/corda-training-solutions-master.kotlin-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-source/corda-training-solutions-master.kotlin-source.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-source/corda-training-solutions-master.kotlin-source.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-source/corda-training-solutions-master.kotlin-source.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-source/corda-training-solutions-master.kotlin-source.test.iml" />
+    </modules>
+  </component>
+</project>
