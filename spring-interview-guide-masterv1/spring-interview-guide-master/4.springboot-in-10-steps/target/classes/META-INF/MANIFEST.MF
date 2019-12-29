@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: springboot-in-10-steps
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: root
+Implementation-Vendor-Id: com.in28minutes.springboot.basics
+Build-Jdk: 1.8.0_232
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/springboot-in-10-steps
+Created-By: Maven Integration for Eclipse
+
