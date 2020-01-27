@@ -1,0 +1,21 @@
+{
+  "workflows": [
+    {
+      "workflowName": "purchases",
+      "workflowFilename": "purchases.json"
+    }
+  ],
+  "producers": [
+    {
+      "type": "kafka",
+      "broker.server": "127.0.0.1",
+      "broker.port": 9092,
+      "topic": "src-topic",
+      "flatten" : false,
+      "sync": false
+    },
+    {
+      "type": "logger"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "eventFrequency": 400,
+  "varyEventFrequency": true,
+  "repeatWorkflow": true,
+  "timeBetweenRepeat": 1500,
+  "varyRepeatFrequency": true,
+  "steps": [
+    {
+      "config": [
+        {
+          "timestamp": "now()",
+          "symbol": "random('GOOG','MSFT','AAPL','YHOO','TWTR')",
+          "amount": "double(100.0,60000.0)",
+          "shares": "integer(100,1000)",
+          "type": "random('purchase','sell')"
+        }
+      ],
+      "duration": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "workflows": [
+    {
+      "workflowName": "stock-transactions",
+      "workflowFilename": "stock-transactions.json"
+    }
+  ],
+  "producers": [
+    {
+      "type": "kafka",
+      "broker.server": "127.0.0.1",
+      "broker.port": 9092,
+      "topic": "stocks",
+      "flatten" :false,
+      "sync": false
+    },
+    {
+      "type": "logger"
+    }
+  ]
+}

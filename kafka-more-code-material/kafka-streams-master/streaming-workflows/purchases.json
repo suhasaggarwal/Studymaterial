@@ -1,0 +1,24 @@
+{
+  "eventFrequency": 400,
+  "varyEventFrequency": true,
+  "repeatWorkflow": true,
+  "timeBetweenRepeat": 1500,
+  "varyRepeatFrequency": true,
+  "steps": [
+    {
+      "config": [
+        {
+          "lastName" : "lastName()",
+          "firstName" : "firstName()",
+          "creditCardNumber": "random('4929-3813-3266-4295', '5370-4638-8881-3020','4916-4811-5814-8111','4916-4034-9269-8783','5299-1561-5689-1938','5293-8502-0071-3058') ",
+          "itemPurchased": "random('batteries','eggs','diapers','shampoo','shaving cream','doughnuts','beer')",
+          "quantity": "integer(1,4)",
+          "price": "double(3.95,14.99)",
+          "purchaseDate": "date(\"2016/02/12T00:00:00\",\"2016/02/19T23:59:59\")" ,
+          "zipCode" : "random('20841','20852','19971','10005','21842')"
+        }
+      ],
+      "duration": 0
+    }
+  ]
+}
