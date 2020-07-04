@@ -69,6 +69,7 @@ func (*server) GreetEveryone(stream greetpb.GreetService_GreetEveryoneServer) er
 
 	for {
 		req, err := stream.Recv()
+		//End of stream is reached, just returns done processing all the requests received before
 		if err == io.EOF {
 			return nil
 		}
