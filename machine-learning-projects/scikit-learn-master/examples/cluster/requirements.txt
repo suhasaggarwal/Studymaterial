@@ -13,10 +13,10 @@ jupyter-console==5.0.0
 jupyter-core==4.2.1
 MarkupSafe==0.23
 matplotlib==2.0.0
-mistune==0.7.3
+mistune==2.0.3
 nbconvert==4.2.0
 nbformat==4.2.0
-notebook==5.4.1 
+notebook==6.4.12 
 numpy==1.11.3
 pandas==0.19.2
 pexpect==4.2.1
